@@ -86,7 +86,9 @@ SELECT title, release_year
 FROM "netflix_titles_info"
 WHERE type = 'Movie'
 ORDER By release_year
-LIMIT 1;How many movie titles are there in the database?
+LIMIT 1;
+
+#6. How many movie titles are there in the database?
 SELECT count(*)
 FROM "netflix_titles_info"
 WHERE type = 'Movie';
